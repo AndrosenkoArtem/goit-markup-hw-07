@@ -1,0 +1,76 @@
+    .bcg-color {
+        background-color: $white-text;
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    .team-name {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        & .team-item:not(:first-child) {
+            margin-left: 30px;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
+    }
+    }
+    .team-background {
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+
+    }
+    .team-title {
+        text-align: center;
+        background-color: $background-color;
+    }
+    .name-title {
+        color: $primary-text-color;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        margin: 0;
+        padding-top: 30px;
+    }
+    .name-subtitle {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2px;
+        letter-spacing: 0.03em;
+    }
+    .social-list {
+        display: flex;
+        width: 206px;
+        justify-content: space-between;
+    }
+    .team-flex {
+        display: flex;
+        justify-content: space-between;
+        width: 206px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 22px;
+        padding-top: 16px;
+    }
+    .social-svg {
+        fill: #afb1b8;
+        width: 20px;
+        height: 20px;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .social-network {
+        display: flex;
+        width: 44px;
+        height: 44px;
+        background-color: #fff;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            &:hover {
+                    background-color: #2196F3;
+                }
+            &:hover .social-svg {
+                    fill: #ffff;
+                }
+    }

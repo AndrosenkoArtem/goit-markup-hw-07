@@ -1,0 +1,37 @@
+
+.feather-list {
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin: 0;
+    justify-content: center;
+}
+.feather-list .feather-item:not(:first-child) {
+    margin-left: 30px;
+}
+.feather-item {
+    justify-content: center;
+    width: 270px;
+}
+.feather-item__title {
+    color: $primary-text-color;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+}
+.feather-item__background {
+    background-color: $white-text;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feather-item__subtitle {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    margin: 0;
+    padding: 0;
+}
